@@ -1,0 +1,12 @@
+1. STAGE1
+2. Starmie
+3. 90
+4. PSYCHIC
+5. evolves_from.txt
+6. P/Psychic/10,P/PowerGem/60
+7. DARKNESS
+8. FIGHTING
+9. -
+10. Sword & Shield—Brilliant Stars
+11. F
+12. KARTASHOVA/ALISA/ALEKSANDROVNA/BSBO-04-23
