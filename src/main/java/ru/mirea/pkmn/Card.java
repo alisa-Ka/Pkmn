@@ -116,7 +116,7 @@ public class Card implements Serializable {
                 " name=" + name + '\n' +
                 " hp=" + hp + '\n' +
                 " energyType=" + pokemonType + '\n' +
-                " evolvesFrom=" + (evolvesFrom!=null ? evolvesFrom.getName() : "none") + '\n' +
+                " evolvesFrom=" + (evolvesFrom!=null ? evolvesFrom : "none") + '\n' +
                 " skills=" + skills + '\n' +
                 " weaknessType=" + weaknessType + '\n' +
                 " resistanceType=" + resistanceType + '\n' +
