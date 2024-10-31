@@ -6,7 +6,7 @@ import java.io.Serializable;
 public class Student implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
-
+    public Student() {}
     private String firstName;
 
     public Student(String firstName, String surName, String familyName, String group) {

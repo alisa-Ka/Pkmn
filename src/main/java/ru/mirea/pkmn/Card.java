@@ -24,6 +24,13 @@ public class Card implements Serializable {
     public String getName() {
         return name;
     }
+    private String number;
+    public String getNumber() {
+        return number;
+    }
+    public void setNumber(String value) {
+        number = value;
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -123,7 +130,8 @@ public class Card implements Serializable {
                 " retreatCost='" + retreatCost + '\'' + '\n' +
                 " gameSet='" + gameSet + '\'' + '\n' +
                 " regulationMark=" + regulationMark + '\n' +
-                " pokemonOwner=" + pokemonOwner +
+                " pokemonOwner=" + pokemonOwner + '\n' +
+                " number='" + number + '\n' +
                 '}';
     }
 }

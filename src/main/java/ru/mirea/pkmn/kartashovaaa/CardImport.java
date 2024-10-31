@@ -75,8 +75,12 @@ public class CardImport {
                     } else {
                         card.setPokemonOwner(null);
                     }
+                } else if(Objects.equals(parts[0], "13.")){
+                    card.setNumber(parts.length == 2 && !parts[1].isEmpty() && !parts[1].equals("-") ? parts[1] : null);
                 }
+
             }
+
         }
         return card;
     }
